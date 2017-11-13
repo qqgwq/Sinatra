@@ -13,15 +13,8 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (8.0.0)
-    autoprefixer-rails (7.1.6)
-      execjs
     bond (0.5.1)
-    bootstrap-sass (3.3.7)
-      autoprefixer-rails (>= 5.2.1)
-      sass (>= 3.3.4)
     concurrent-ruby (1.0.5)
-    execjs (2.7.0)
-    ffi (1.9.18)
     i18n (0.9.1)
       concurrent-ruby (~> 1.0)
     minitest (5.10.3)
@@ -34,9 +27,6 @@ GEM
     rack-test (0.6.3)
       rack (>= 1.0)
     rake (12.2.1)
-    rb-fsevent (0.10.2)
-    rb-inotify (0.9.10)
-      ffi (>= 0.5.0, < 2)
     ripl (0.7.1)
       bond (~> 0.5.1)
     ripl-multi_line (0.3.1)
@@ -45,11 +35,6 @@ GEM
       rack (>= 1.0)
       rack-test (~> 0.6.2)
       ripl (>= 0.7.0)
-    sass (3.5.3)
-      sass-listen (~> 4.0.0)
-    sass-listen (4.0.0)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
     sinatra (2.0.0)
       mustermann (~> 1.0)
       rack (~> 2.0)
@@ -58,6 +43,7 @@ GEM
     sinatra-activerecord (2.0.13)
       activerecord (>= 3.2)
       sinatra (>= 1.0)
+    sinatra-captcha (0.1.0.0)
     sinatra-flash (0.3.0)
       sinatra (>= 1.0.0)
     sinatra-redirect-with-flash (0.2.1)
@@ -81,12 +67,12 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
-  bootstrap-sass
   mysql2
   pg
   rake
   sinatra
   sinatra-activerecord
+  sinatra-captcha
   sinatra-flash
   sinatra-redirect-with-flash
   slim

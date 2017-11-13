@@ -7,7 +7,7 @@ gem 'sinatra-flash'
 gem 'sinatra-redirect-with-flash'
 gem 'rake'
 gem 'slim'
-gem 'bootstrap-sass'
+gem 'sinatra-captcha'
 
 group :development do
   gem 'mysql2'
